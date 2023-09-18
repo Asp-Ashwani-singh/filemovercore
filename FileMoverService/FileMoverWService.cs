@@ -41,7 +41,7 @@ namespace FileMoverService
                LogProcesser.Info("FileMover Service has been started!!");
                 FileMover fileMover=new FileMover(_configuration);
                 var filesLocations= _configuration["Path:FileLocation"];
-                //filesLocations = @"R:\filemove,R:\filemove1";
+               // filesLocations = @"R:\filemove,R:\filemove1";
                 LogProcesser.Info("Location of Files"+ filesLocations);
                 try 
                 {
